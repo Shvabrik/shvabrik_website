@@ -1,0 +1,85 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+
+}
+main .top {
+    font-size: 60px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+
+    height: 100vh;
+    left: 0;
+    right: 0;
+}
+main .top h1 {
+    user-select: none;
+    margin: 10px;
+}
+main .top p {
+    color: rgba(0, 0, 0, 0);
+    transform: rotate(-5deg);
+}
+main .top h4 {
+    transform: rotate(5deg);
+    user-select: none;
+}
+
+main .cats {
+    background-image: url("images/IMG_0904.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+
+
+    font-size: 80px;
+    height: 78vh;
+    margin-left: 10px;
+    left: 0;
+    right: 0;
+}
+main .cats h3 {
+    border-radius: 16px;
+    transition: 0.2s;
+}
+main .cats h3:hover {
+    transform: scale(1.2);
+    background: linear-gradient(to right, #867df6,#ff7d7d);
+    padding: 10px;
+    z-index: 1;
+}
+
+main .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 80px;
+    height: 78vh;
+    left: 0;
+    right: 0;
+}
+main .bottom {
+    background: linear-gradient(to right, #867df6,#ff7d7d);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-size: 80px;
+    height: 78vh;
+    margin-left: 10px;
+    left: 0;
+    right: 0;
+}
