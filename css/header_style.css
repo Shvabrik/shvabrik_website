@@ -1,0 +1,58 @@
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-around;
+
+    position:fixed;
+    top: 0;
+    right: 0px;
+    left: 0px;
+    z-index: 9999999;
+}
+
+header .header_menu {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul {
+    position: relative;
+    float: right;
+}
+
+header nav ul li {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    transition: 0.2s;
+}
+
+header nav ul li:hover {
+    transform: scale(1.2);
+}
+
+header .shvabrik_normal_icon{
+    display: flex;
+    justify-content: center;
+
+    height: 7%;
+    width: 7%;
+    max-height: 80px;
+    max-width: 80px;
+    transition: 0.2s;
+}
+
+header .shvabrik_normal_icon:hover {
+    transform: scale(1.2);
+}

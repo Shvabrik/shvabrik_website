@@ -1,0 +1,52 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+main .top {
+    background: linear-gradient(to right, #867df6,#ff7d7d);
+    font-size: 30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    height: 30vh;
+    left: 0;
+    right: 0;
+}
+main .top h2 {
+    padding-top: 10%;
+    user-select: none;
+}
+
+main .center {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    left: 0;
+    right: 0;
+}
+main .center .contact_cart {
+    background: linear-gradient(#867df6,#ff7d7d);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 25px;
+    margin: 20px;
+    padding: 30px 20px 10px;
+    width: 140px;
+    height: 170px;
+    border-radius: 16px;
+    transition: 0.2s;
+}
+
+main .center .contact_cart:hover {
+    transform: scale(1.2);
+}
+main .center .contact_cart i {
+    font-size: 64px;
+}

@@ -1,0 +1,23 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+main .top {
+    background: linear-gradient(to right, #867df6,#ff7d7d);
+    font-size: 30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    height: 30vh;
+    left: 0;
+    right: 0;
+}
+main .top h2 {
+    padding-top: 10%;
+    user-select: none;
+}

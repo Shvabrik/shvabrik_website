@@ -1,0 +1,40 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .top {
+    background-color: black;
+    font-size: 30px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    height: 86vh;
+    left: 0;
+    right: 0;
+}
+
+main .top input {
+    color: black;
+    background-color: white;
+    border: initial;
+    text-align: center;
+    height: 20px;
+    width: 200px;
+    border-radius: 16px;
+    transition: 0.2s;
+}
+
+main .top input:hover {
+    transform: scale(1.1);
+}
+
+main .top h5 {
+    font-size: 15px;
+}
