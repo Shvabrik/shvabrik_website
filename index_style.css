@@ -2,11 +2,10 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
 
 }
 main .top {
-    font-size: 60px;
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
@@ -14,24 +13,26 @@ main .top {
     flex-direction: column;
 
     height: 100vh;
-    left: 0;
     right: 0;
+    left: 0;
 }
 main .top h1 {
     user-select: none;
-    margin-bottom: 10px;
+    font-size: 100px;
 }
 main .top p {
     color: rgba(0, 0, 0, 0);
     transform: rotate(-5deg);
+    font-size: 40px;
 }
 main .top h4 {
     transform: rotate(5deg);
     user-select: none;
+    font-size: 40px;
 }
 
 main .cats {
-    background-image: url("images/IMG_0904.png");
+    background-image: url("images/IMG_0941.JPG");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -46,8 +47,8 @@ main .cats {
     font-size: 80px;
     height: 78vh;
     margin-left: 10px;
-    left: 0;
     right: 0;
+    left: 0;
 }
 main .cats h3 {
     border-radius: 16px;
@@ -64,11 +65,12 @@ main .center {
     display: flex;
     align-items: center;
     justify-content: center;
+    user-select: none;
 
     font-size: 80px;
     height: 78vh;
-    left: 0;
     right: 0;
+    left: 0;
 }
 main .bottom {
     background: linear-gradient(to right, #867df6,#ff7d7d);
@@ -76,10 +78,11 @@ main .bottom {
     display: flex;
     align-items: center;
     justify-content: center;
+    user-select: none;
     
     font-size: 80px;
     height: 78vh;
     margin-left: 10px;
-    left: 0;
     right: 0;
+    left: 0;
 }
