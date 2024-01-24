@@ -19,7 +19,7 @@ main .top {
 }
 main .top h1 {
     user-select: none;
-    margin: 10px;
+    margin-bottom: 10px;
 }
 main .top p {
     color: rgba(0, 0, 0, 0);
