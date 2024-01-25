@@ -3,6 +3,8 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
+    right: 0px;
+    left: 0px;
 
 }
 main .top {
@@ -10,7 +12,7 @@ main .top {
     flex-wrap:wrap;
     justify-content: center;
     text-align: center;
-    align-items: center;
+    
     flex-direction: column;
 
     height: 100vh;
@@ -22,7 +24,7 @@ main .top h1 {
     font-size: 100px;
 }
 main .top p {
-    color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0);
     transform: rotate(-5deg);
     font-size: 40px;
 }
@@ -33,7 +35,7 @@ main .top h4 {
 }
 
 main .cats {
-    background-image: url("images/IMG_0941.JPG");
+    background-image: url("images/IMG_0904_use.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
