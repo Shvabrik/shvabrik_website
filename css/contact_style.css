@@ -3,6 +3,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
 }
 main .top {
     background: linear-gradient(to right, #867df6,#ff7d7d);
@@ -26,6 +27,8 @@ main .center {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    user-select: none;
+    
     left: 0;
     right: 0;
 }
@@ -44,9 +47,28 @@ main .center .contact_cart {
     transition: 0.2s;
 }
 
-main .center .contact_cart:hover {
+main .center .contact_cart.shake:hover {
+  animation: shake 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+}
+
+main .center .contact_cart.scale:hover {
     transform: scale(1.2);
 }
 main .center .contact_cart i {
     font-size: 64px;
 }
+
+@keyframes shake {
+    10%, 90% {
+      transform: translateX(-0.5px);
+     }
+    20%, 80% {
+      transform: translateX(1px);
+    }
+    30%, 50%, 70% {
+      transform: translateX(-2px);
+    }
+    40%, 60% {
+      transform: translateX(2px);
+    }
+  }
