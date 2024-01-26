@@ -1,4 +1,5 @@
 main {
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -42,13 +43,17 @@ main .center .project {
     right: 0;
 }
 main .center .project .info {
+    background-color: black;
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
     height: 100%;
     width: 50%;
+    transition: 0.2s;
 }
 main .center .project .gif {
+    background-color: black;
+    align-items: center;
     height: 100%;
     width: 50%;
 }
