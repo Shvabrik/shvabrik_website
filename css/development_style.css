@@ -14,8 +14,7 @@ main .top {
     align-items: center;
     text-align: center;
     flex-direction: column;
-    padding-bottom: 30px;
-    height: 86vh;
+    height: 35vh;
     left: 0;
     right: 0;
 }

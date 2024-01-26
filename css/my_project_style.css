@@ -1,10 +1,10 @@
 main {
-    background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
 }
+
 main .top {
     background: linear-gradient(to right, #867df6,#ff7d7d);
     font-size: 30px;
@@ -13,47 +13,64 @@ main .top {
     justify-content: center;
     text-align: center;
     flex-direction: column;
+
     padding-bottom: 30px;
-    height: 30vh;
+    height: 35vh;
     left: 0;
     right: 0;
 }
+
 main .top h2 {
-    padding-top: 10%;
-    user-select: none;
+    padding-top: 10vh;
 }
+
 main .center {
+    background: linear-gradient(to right, #867df6,#ff7d7d);
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
+
     left: 0;
     right: 0;
 }
+
 main .center .project {
+    background-color: black;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-
-    height: 30vh;
+    
+    padding: 10px;
+    height: 32vh;
+    min-height: 280px;
     left: 0;
     right: 0;
+    transition: 0.2s;
 }
+
 main .center .project .info {
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
+    user-select: text;
+
     height: 100%;
     width: 50%;
-    transition: 0.2s;
 }
+
+main .center .project:hover{
+    transform: scale(0.9);
+    border-radius: 16px;
+}
+
 main .center .project .gif {
     background-color: black;
-    align-items: center;
+    object-fit: cover;
+
+    border-radius: 10px;
     height: 100%;
     width: 50%;
 }

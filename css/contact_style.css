@@ -13,13 +13,12 @@ main .top {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    padding-bottom: 30px;
-    height: 30vh;
+    height: 35vh;
     left: 0;
     right: 0;
 }
 main .top h2 {
-    padding-top: 10%;
+    padding-top: 10vh;
     user-select: none;
 }
 
@@ -29,6 +28,7 @@ main .center {
     flex-wrap: wrap;
     user-select: none;
     
+    margin: 20px;
     left: 0;
     right: 0;
 }
@@ -71,4 +71,4 @@ main .center .contact_cart i {
     40%, 60% {
       transform: translateX(2px);
     }
-  }
+}
