@@ -24,6 +24,12 @@ a {
     text-decoration: none;
 }
 
+@media screen and (min-width: 501px) { 
+    main {
+        padding-left: 10px;
+    }
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }
