@@ -12,7 +12,6 @@ main .top {
     text-align: center;
     flex-direction: column;
 
-    padding-bottom: 30px;
     height: 100vh;
     min-height: 860px;
     left: 0;
