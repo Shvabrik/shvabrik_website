@@ -14,14 +14,14 @@ main .top {
     text-align: center;
     flex-direction: column;
 
-    padding-bottom: 30px;
-    height: 35vh;
+    height: 30vh;
     left: 0;
     right: 0;
 }
 
 main .top h2 {
     padding-top: 10vh;
+    user-select: none;
 }
 
 main .center {
@@ -64,7 +64,6 @@ main .center .project .info {
 main .center .project .info:hover {
     transform: scale(0.9);
     border-radius: 16px;
-    background: linear-gradient(to right, #867df6,#ff7d7d);
 }
 
 main .center .project .gif {

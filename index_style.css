@@ -5,7 +5,7 @@ main {
     flex-direction: column;
 }
 
-main .top {
+main .top_index {
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
@@ -20,17 +20,17 @@ main .top {
     
 }
 
-main .top h1 {
+main .top_index h1 {
     user-select: none;
 }
 
-main .top p {
+main .top_index p {
     color: black;
     transform: rotate(-5deg);
     text-wrap:balance;
 }
 
-main .top h4 {
+main .top_index h4 {
     user-select: none;
     transform: rotate(5deg);
     text-wrap:balance;
@@ -97,13 +97,13 @@ main .bottom {
 }
 
 @media screen and (max-width: 500px) { 
-    main .top h1 {
+    main .top_index h1 {
         font-size: 20vw;
     }
-    main .top p {
+    main .top_index p {
         font-size: 10vw;
     }
-    main .top h4 {
+    main .top_index h4 {
         font-size: 10vw;
     }
     main .cats h3 {
@@ -112,13 +112,13 @@ main .bottom {
 }
 
 @media screen and (min-width: 501px) { 
-    main .top h1 {
+    main .top_index h1 {
         font-size: 100px;
     }
-    main .top p {
+    main .top_index p {
         font-size: 40px;
     }
-    main .top h4 {
+    main .top_index h4 {
         font-size: 40px;
     }
     main .cats h3 {

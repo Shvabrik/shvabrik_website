@@ -16,21 +16,15 @@ header {
     z-index: 9999999;
 }
 
-header .header_menu {
+header nav ul.header_menu {
+    position: relative;
     display: flex;
     flex-wrap:wrap;
     align-items: center;
     justify-content: center;
 }
 
-header nav ul {
-    position: relative;
-    float: right;
-}
-
 header nav ul li {
-    font-size: 1rem;
-    padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 20px;
     padding-left: 20px;
@@ -42,17 +36,36 @@ header nav ul li:hover {
     transform: scale(1.2);
 }
 
-header .shvabrik_normal_icon{
-    display: flex;
-    justify-content: center;
-
-    height: 7%;
-    width: 7%;
-    max-height: 80px;
-    max-width: 80px;
-    transition: 0.2s;
-}
-
 header .shvabrik_normal_icon:hover {
     transform: scale(1.2);
+}
+@media screen and (max-width: 700px) { 
+    header nav ul li {
+    font-size: 15px;
+    }
+    header .shvabrik_normal_icon{
+        height: 0;
+        width: 0;
+    }
+    header nav ul {
+        padding-inline-start: 0px;
+    }
+}
+@media screen and (min-width: 701px) { 
+    header nav ul li {
+        font-size: 20px;
+    }
+    header .shvabrik_normal_icon{
+        display: flex;
+        justify-content: center;
+        
+        height: 7%;
+        width: 7%;
+        max-height: 80px;
+        max-width: 80px;
+        transition: 0.2s;
+    }
+    header nav ul {
+        float: right;
+    }
 }

@@ -27,8 +27,7 @@ main .center {
     justify-content: space-around;
     flex-wrap: wrap;
     user-select: none;
-    
-    margin: 20px;
+    margin-top: 20px;
     left: 0;
     right: 0;
 }
@@ -38,11 +37,8 @@ main .center .contact_cart {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    font-size: 25px;
+
     margin: 20px;
-    padding: 30px 20px 10px;
-    width: 140px;
-    height: 170px;
     border-radius: 16px;
     transition: 0.2s;
 }
@@ -71,4 +67,40 @@ main .center .contact_cart i {
     40%, 60% {
       transform: translateX(2px);
     }
+}
+
+@media screen and (max-width: 400px) { 
+  main .center .contact_cart {
+    font-size: 30px;
+    padding: 30px 10px 10px;
+    width: 70vw;
+    height: 60vw;
+  }
+}
+
+@media screen and (min-width: 401px) { 
+  main .center .contact_cart {
+    font-size: 25px;
+    padding: 30px 10px 10px;
+    width: 32vw;
+    height: 37vw;
+  }
+}
+
+@media screen and (min-width: 700px) { 
+  main .center .contact_cart {
+    font-size: 25px;
+    padding: 30px 10px 10px;
+    width: 17vw;
+    height: 18vw;
+  }
+}
+
+@media screen and (min-width: 1100px) { 
+  main .center .contact_cart {
+    font-size: 25px;
+    padding: 30px 20px 10px;
+    width: 140px;
+    height: 170px;
+  }
 }
