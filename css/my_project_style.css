@@ -47,7 +47,6 @@ main .center .project {
     min-height: 280px;
     left: 0;
     right: 0;
-    transition: 0.2s;
 }
 
 main .center .project .info {
@@ -59,11 +58,13 @@ main .center .project .info {
 
     height: 100%;
     width: 50%;
+    transition: 0.2s;
 }
 
-main .center .project:hover{
+main .center .project .info:hover {
     transform: scale(0.9);
     border-radius: 16px;
+    background: linear-gradient(to right, #867df6,#ff7d7d);
 }
 
 main .center .project .gif {
