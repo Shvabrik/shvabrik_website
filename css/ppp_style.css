@@ -3,6 +3,7 @@ body {
     
 
 a {
-    Width: 100%;
-    Height: 100%;
+    Width: 100vw;
+    Height: 100vh;
+    display: block;
 }
