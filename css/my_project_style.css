@@ -4,73 +4,71 @@ main {
     justify-content: center;
     flex-direction: column;
 }
-
 main .top {
     background: linear-gradient(to right, #867df6,#ff7d7d);
-    font-size: 30px;
+    font-size: 3vh;
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-
-    height: 30vh;
+    padding-top: 116px;
+    height: 25vh;
+    min-height: 180px;
     left: 0;
     right: 0;
 }
-
 main .top h2 {
-    padding-top: 10vh;
     user-select: none;
 }
 
 main .center {
-    background: linear-gradient(to right, #867df6,#ff7d7d);
     display: flex;
-    justify-content: center;
     flex-direction: column;
-
+    justify-content: center;
+    align-items: center;
     left: 0;
     right: 0;
 }
 
 main .center .project {
-    background-color: black;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    
+    justify-content: center;
+
     padding: 10px;
     height: 32vh;
-    min-height: 280px;
-    left: 0;
-    right: 0;
+    width: 90vw;
+    max-width: 1200px;
+    min-height: 200px;
+    border-radius: 10px;
 }
 
 main .center .project .info {
     background-color: black;
     display: flex;
+    text-wrap: balance;
+    user-select: text;
+    text-align: center;
     align-items: center;
     justify-content: center;
-    user-select: text;
-
+    
+    margin: 0;
+    border-radius: 10px;
     height: 100%;
     width: 50%;
     transition: 0.2s;
 }
 
-main .center .project .info:hover {
-    transform: scale(0.9);
-    border-radius: 16px;
-}
-
 main .center .project .gif {
     background-color: black;
+    display: flex;
     object-fit: cover;
 
     border-radius: 10px;
     height: 100%;
     width: 50%;
+}
+main .center .project .info:hover {
+    transform: scale(0.9);
 }

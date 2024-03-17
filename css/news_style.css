@@ -10,14 +10,14 @@ main .top {
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     flex-direction: column;
-    padding-bottom: 30px;
-    height: 35vh;
+    padding-top: 116px;
+    height: 25vh;
+    min-height: 180px;
     left: 0;
     right: 0;
 }
 main .top h2 {
-    padding-top: 10vh;
     user-select: none;
 }

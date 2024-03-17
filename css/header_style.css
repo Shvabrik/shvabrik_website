@@ -44,8 +44,7 @@ header .shvabrik_normal_icon:hover {
     font-size: 15px;
     }
     header .shvabrik_normal_icon{
-        height: 0;
-        width: 0;
+       display:none;
     }
     header nav ul {
         padding-inline-start: 0px;
